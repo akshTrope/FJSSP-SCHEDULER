@@ -1,0 +1,168 @@
+{
+  "instance": {
+    "jobs": {
+      "1": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "2": [
+        1,
+        2,
+        3
+      ],
+      "3": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "4": [
+        1,
+        2,
+        3
+      ],
+      "5": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "machines": [
+      1
+    ],
+    "E": {
+      "1,1": [
+        1
+      ],
+      "1,2": [
+        1
+      ],
+      "1,3": [
+        1
+      ],
+      "1,4": [
+        1
+      ],
+      "2,1": [
+        1
+      ],
+      "2,2": [
+        1
+      ],
+      "2,3": [
+        1
+      ],
+      "3,1": [
+        1
+      ],
+      "3,2": [
+        1
+      ],
+      "3,3": [
+        1
+      ],
+      "3,4": [
+        1
+      ],
+      "3,5": [
+        1
+      ],
+      "4,1": [
+        1
+      ],
+      "4,2": [
+        1
+      ],
+      "4,3": [
+        1
+      ],
+      "5,1": [
+        1
+      ],
+      "5,2": [
+        1
+      ],
+      "5,3": [
+        1
+      ],
+      "5,4": [
+        1
+      ],
+      "5,5": [
+        1
+      ],
+      "5,6": [
+        1
+      ]
+    },
+    "P": {
+      "1,1,1": 27,
+      "1,2,1": 24,
+      "1,3,1": 27,
+      "1,4,1": 31,
+      "2,1,1": 16,
+      "2,2,1": 34,
+      "2,3,1": 16,
+      "3,1,1": 8,
+      "3,2,1": 20,
+      "3,3,1": 20,
+      "3,4,1": 28,
+      "3,5,1": 7,
+      "4,1,1": 4,
+      "4,2,1": 23,
+      "4,3,1": 30,
+      "5,1,1": 38,
+      "5,2,1": 4,
+      "5,3,1": 27,
+      "5,4,1": 28,
+      "5,5,1": 27,
+      "5,6,1": 12
+    }
+  },
+  "metadata": {
+    "seed": 1,
+    "instance_class_label": "edge_single_machine",
+    "params": {
+      "number_of_jobs": 5,
+      "number_of_machines": 1,
+      "operations_per_job": [
+        3,
+        6
+      ],
+      "machine_flexibility": 1.0,
+      "processing_time_range": [
+        5,
+        50
+      ],
+      "processing_time_variance": 0.2,
+      "bottleneck_probability": 0.0,
+      "bottleneck_machines": null,
+      "bottleneck_speed_factor": [
+        0.5,
+        0.8
+      ],
+      "flexibility_mode": "random",
+      "processing_time_distribution": "uniform",
+      "bottleneck_stage_filter": "all",
+      "distributed_bottlenecks": null,
+      "job_length_mode": "uniform",
+      "bimodal_long_fraction": 0.2
+    },
+    "computed_beta": 1.0,
+    "computed_dv": 0.6666666666666666,
+    "machine_eligibility_entropy": 0.0,
+    "bottleneck_coverage": 0.0,
+    "bottleneck_intensity": 0.0,
+    "processing_time_gap_ratio": 1.0,
+    "time_skew": 0.0,
+    "n_jobs": 5,
+    "n_machines": 1,
+    "n_operations": 21
+  }
+}
